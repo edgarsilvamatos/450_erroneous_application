@@ -15,7 +15,7 @@ public class TodoApp {
             this.completed = false;
         }
 
-        void toggleCompletion() {
+        public void toggleCompletion() {
             completed = !completed;
         }
     }
